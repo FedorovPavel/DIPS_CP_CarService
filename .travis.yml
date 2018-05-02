@@ -17,6 +17,6 @@ deploy:
   provider: openshift
   user: "forsach95@mail.ru"
   password: "Cat19950214"
-  domain: "http://cars-dips1car.a3c1.starter-us-west-1.openshiftapps.com/"
+  domain: "travisci-dips1car.a3c1.starter-us-west-1.openshiftapps.com"
   app: "dips1car"
   on: master 
