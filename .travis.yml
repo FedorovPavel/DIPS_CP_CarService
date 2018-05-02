@@ -16,7 +16,7 @@ script:  cd $Car_dir && mocha --exit */*.js
 deploy:
   provider: openshift
   user: "forsach95@mail.ru"
-  password:
-    secure: 'Wo33rsNxQ-PXyWXrUkgbWrd83uNi6d1fvM_mpYE2wk8'
+  password: "Cat19950214"
   domain: "http://cars-dips1car.a3c1.starter-us-west-1.openshiftapps.com/"
   app: "dips1car"
+  on: master
