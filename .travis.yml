@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "8"
+
+install:
+  - npm install
+  - npm install -g mocha
+
+env:
+  - Car_dir=./Car_service/test/
+  # - Test_dir=./Lab1/test/models
+  # - Test_dir=./Lab1/test/views
+
+script:  cd $Car_dir && mocha */*.js
+
+deploy:
+  provider: openshift
+  user: "fedorovpavel"
+  password: "Cat19950214" # can be encrypted
+  domain: "http://cars-dips1car.a3c1.starter-us-west-1.openshiftapps.com/"
+  app: "dips1car"
