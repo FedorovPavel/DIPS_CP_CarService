@@ -1,6 +1,7 @@
 {
   "name": "car-service",
   "version": "0.0.1",
+  "node-version": "8.10.10",
   "private": true,
   "main": "app.js",
   "scripts": {
