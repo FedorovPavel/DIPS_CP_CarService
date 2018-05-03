@@ -31,4 +31,6 @@ const config = {
   }
 };
 
+console.log(env);
+
 module.exports = config[env];
