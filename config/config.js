@@ -27,7 +27,7 @@ const config = {
       name: 'car-service'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/car-service-production'
+    db: 'mongodb://admin:1111@ds014808.mlab.com:14808/pcar'
   }
 };
 
